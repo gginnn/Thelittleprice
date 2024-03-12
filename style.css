@@ -35,53 +35,53 @@ body{
 
 #image-gallery img:nth-child(1) {
     top: 5%;
-    left: 90%;
+    left: 80%;
 }
 
 #image-gallery img:nth-child(2) {
     top: 10%;
-    left: 60%;
+    left: 50%;
 }
 
 #image-gallery img:nth-child(3) {
     top: 0.1%;
-    left: 30%;
+    left: 20%;
 }
 
 #image-gallery img:nth-child(4) {
     width: 500px;
     top: 40%;
-    left: 43%;
+    left: 33%;
 }
 
 #image-gallery img:nth-child(5) {
     top: 55%;
-    left: 25%;
+    left: 15%;
 }
 
 #image-gallery img:nth-child(6) {
-    top: 20%;
-    left: 10%;
+    top: 23%;
+    left: 0.5%;
 }
 #image-gallery img:nth-child(7) {
     top: 30%;
-    left: 75%;
+    left: 65%;
 }
 
 #image-gallery img:nth-child(8) {
     top: 60%;
-    left: 85%;
+    left: 75%;
 }
 
 #image-gallery img:nth-child(9) {
     top: 20%;
-    left: 55%;
+    left: 45%;
 }
 
 #image-gallery img:nth-child(10) {
     width:450px;
     top: 25%;
-    left: 30%;
+    left: 20%;
 }
 
 body {

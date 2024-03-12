@@ -2,10 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const images = document.querySelectorAll('#image-gallery img');
     const quoteModal = document.getElementById('quote-modal');
     const quoteText = document.getElementById('quote');
-    const closeBtn = document.querySelector('.close');
-    const clickHereBtn = document.getElementById('click-here-btn');
-    const secondModal = document.getElementById('second-modal');
     const secondQuoteText = document.getElementById('second-quote');
+    const closeBtn = document.querySelector('.close');
 
     images.forEach(image => {
         image.addEventListener('click', function() {
@@ -23,19 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
         quoteModal.style.display = 'none';
     });
 
-    clickHereBtn.addEventListener('click', function() {
-        secondModal.style.display = 'block';
-    });
-
     quoteModal.addEventListener('click', function(event) {
         if (event.target === quoteModal) {
             quoteModal.style.display = 'none';
-        }
-    });
-
-    secondModal.addEventListener('click', function(event) {
-        if (event.target === secondModal) {
-            secondModal.style.display = 'none';
         }
     });
 });

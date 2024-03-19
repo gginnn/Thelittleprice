@@ -8,43 +8,112 @@
     <link rel="stylesheet" href="https://use.typekit.net/eur6kbx.css">
 </head>
 <body>
+    <div class="audio-container">
+        <audio id="myAudio" src="Audio/TXT Light.mp3">
+            Your browser does not support the audio element
+        </audio>
+        <button id="playButton">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+        </button>
+    </div>
+    
     <div id="image-gallery">
-        <img src="business.png" alt="Business" data-quote="&quot;Certainly. When you find a diamond that belongs to nobody, it is yours. When you discover an island that belongs to nobody, it is yours. When you get an idea before anyone else, you take out a patent on it: it is yours. So with me: I own the stars, because nobody else before me ever thought of owning them.&quot;"
+        <img src="Illustrations/business.png" alt="Business" class="modal-trigger" data-modal-class="business" data-quote="&quot;Certainly. When you find a diamond that belongs to nobody, it is yours. When you discover an island that belongs to nobody, it is yours. When you get an idea before anyone else, you take out a patent on it: it is yours. So with me: I own the stars, because nobody else before me ever thought of owning them.&quot;"
         data-second-quote="The businessman's words represent a critique of materialism and ownership. His focus on possessing everything reflects a shallow mindset that prioritizes wealth over genuine human connection, mirroring broader societal values. By claiming ownership of diamonds, islands, and stars, he illustrates the absurdity of trying to control what is beyond human reach. Through this portrayal, the author highlights the emptiness of a life driven solely by the pursuit of wealth and possessions. He encourages readers to find fulfillment in meaningful relationships and experiences instead.">
        
-        <img src="drunkard.png" alt="Drunkard" data-quote="&quot;Why are you drinking?&quot; the little prince asked. &quot;In order to forget,&quot; replied the drunkard. &quot;To forget what?&quot; enquired the little prince, who was already feeling sorry for him. &quot;To forget that I am ashamed,&quot; the drunkard confessed, hanging his head."
+        <img src="Illustrations/drunkard.png" alt="Drunkard" class="modal-trigger" data-modal-class="drunkard" data-quote="&quot;Why are you drinking?&quot; the little prince asked. &quot;In order to forget,&quot; replied the drunkard. &quot;To forget what?&quot; enquired the little prince, who was already feeling sorry for him. &quot;To forget that I am ashamed,&quot; the drunkard confessed, hanging his head."
         data-second-quote="The drunkard's use of alcohol to forget represents a universal human tendency to avoid confrontation through escapism. As he acknowledges the burden that he carries, the little prince responds with empathy and compassion, demonstrating the importance of understanding and kindness. Through this interaction, the story delves into the complexities of the human condition, portraying the struggle with inner demons and the potential for redemption and personal growth.">
       
-        <img src="earth.png" alt="Earth" data-quote="&quot;What a strange planet!&quot; he thought to himself. &quot;It is quite dry, covered with peaks, salty and inhospitable. And the people have no imagination. They just repeat whatever one says to them... On my planet I had a flower: she was always the first to speak.&quot;"
+        <img src="Illustrations/earth.png" alt="Earth" class="modal-trigger" data-modal-class="earth" data-quote="&quot;What a strange planet!&quot; he thought to himself. &quot;It is quite dry, covered with peaks, salty and inhospitable. And the people have no imagination. They just repeat whatever one says to them... On my planet I had a flower: she was always the first to speak.&quot;"
         data-second-quote="The protagonist reflects on the peculiarities of his new planet in this passage. The barren, inhospitable landscape symbolizes a lack of creativity and imagination, contrasting with the richness and vibrancy of his own planet. The lack of creative conversation among the inhabitants accentuates the planet's dullness and sameness. Through this observation, the little prince grieves over the absence of the lively companionship he once enjoyed with his flower on his home planet. The contrast between the two planets highlights themes of loneliness, longing for connection, and the power of companionship and creativity.">
        
-        <img src="b612.png" alt="b612" data-quote="&quot;It is only with the heart that one can see rightly; what is essential is invisible to the eye.&quot;"
+        <img src="Illustrations/b612.png" alt="b612" class="modal-trigger" data-modal-class="b612" data-quote="&quot;It is only with the heart that one can see rightly; what is essential is invisible to the eye.&quot;"
         data-second-quote="Throughout the book &quot;The Little Prince,&quot; Antoine de Saint-Exupéry emphasizes the importance of seeing beyond appearances to discover deeper truths. Intuition and emotion are represented by the heart, while the visible world is observed by the eye. This quote emphasizes the importance of connecting with others on a deeper level in order to gain a deeper understanding. It reminds us to value relationships and spiritual insights above surface observation.">
       
-        <img src="geographer.png" alt="Geographer" data-quote="&quot;But I am not an explorer. I haven't a single explorer on my planet. It is not the geographer who goes out to count the towns, the rivers, the mountains, the seas, the oceans, and the deserts. The geographer is much too important to go loafing about. He does not leave his desk. But he receives the explorers in his study…&quot;"
+        <img src="Illustrations/geographer.png" alt="Geographer" lass="modal-trigger" data-modal-class="geographer" data-quote="&quot;But I am not an explorer. I haven't a single explorer on my planet. It is not the geographer who goes out to count the towns, the rivers, the mountains, the seas, the oceans, and the deserts. The geographer is much too important to go loafing about. He does not leave his desk. But he receives the explorers in his study…&quot;"
         data-second-quote="This passage illustrates the narrator's emphasis on routine and practicality over adventure and discovery on his planet because there are no explorers on it. In contrast to the adventurous spirit of exploration, the geographer represents the intellectual and scholarly pursuit of knowledge. As a result of emphasizing geography's importance and stationary nature, the text stresses the importance of academics and theoretical knowledge. However, the geographer's reliance on explorers to gather information also suggests a dependence on practical experience and first-hand observation. This passage explores how theory and practice balance each other, and how both intellect and exploration are important for understanding the world.">
       
-        <img src="king.png" alt="King" data-quote="&quot;If I ordered a general to fly from one flower to another like a butterfly, or to write a tragic drama, or to change himself into a sea bird, and if the general did not carry out the order that he had received, which one of us would be in the wrong?&quot;"
+        <img src="Illustrations/king.png" alt="King" class="modal-trigger" data-modal-class="king" data-quote="&quot;If I ordered a general to fly from one flower to another like a butterfly, or to write a tragic drama, or to change himself into a sea bird, and if the general did not carry out the order that he had received, which one of us would be in the wrong?&quot;"
         data-second-quote="The narrator poses a question about obedience and authority by imagining commanding a general to do unusual tasks such as flying like a butterfly or writing a tragic drama. This scenario highlights the absurdity of blindly following orders and emphasizes the importance of individual freedom and autonomy. The passage encourages the readers to question authority and societal norms.">
       
-        <img src="lamplighter.png" alt="Lamplighter" data-quote="&quot;It may well be that this man is absurd. But he is not so absurd as the king, the conceited man, the businessman, and the tippler. For at least his work has some meaning. When he lights his street lamp, it is as if he brought one more star to life, or one flower.&quot;"
+        <img src="Illustrations/lamplighter.png" alt="Lamplighter" class="modal-trigger" data-modal-class="lamplighter" data-quote="&quot;It may well be that this man is absurd. But he is not so absurd as the king, the conceited man, the businessman, and the tippler. For at least his work has some meaning. When he lights his street lamp, it is as if he brought one more star to life, or one flower.&quot;"
         data-second-quote="The narrator reflects on the significance of the lamplighter's work, contrasting it with the absurdities of other characters encountered throughout the story. The lamplighter symbolizes dedication, purpose, and meaningful labor, as his task of lighting street lamps contributes to the illumination of the night. By comparing the lamplighter's tasks to the act of bringing stars to life or flowers into bloom, the passage highlights the significance of simple yet meaningful actions and the satisfaction derived from purposeful endeavors, especially in a world characterized by absurdity.">
       
-        <img src="vainman.png" alt="Vainman" data-quote="&quot;But the conceited man did not hear him. Conceited people never hear anything but praise. It is much more difficult to judge oneself than to judge others.&quot;"
+        <img src="Illustrations/vainman.png" alt="Vainman" class="modal-trigger" data-modal-class="vainman" data-quote="&quot;But the conceited man did not hear him. Conceited people never hear anything but praise. It is much more difficult to judge oneself than to judge others.&quot;"
         data-second-quote="The conceited man symbolizes individuals who are consumed by their own self-importance and unable to see beyond their own egos. His inability to hear criticism reflects a deeper theme of narcissism and self-delusion. The passage suggests that those who are conceited are often deaf to anything but praise, highlighting the difficulty of self-reflection and the tendency to prioritize one's own image over genuine self-awareness. Through the character of the conceited man, the text underscores the importance of humility and the dangers of being overly self-absorbed.">
       
-        <img src="pilot.PNG" alt="Pilot" data-quote="&quot;In the course of this life I have had a great many encounters with a great many people who have been concerned with matters of consequence. I have lived a great deal among grown−ups. I have seen them intimately, close at hand. And that hasn't much improved my opinion of them.&quot;"
+        <img src="Illustrations/pilot.PNG" alt="Pilot" class="modal-trigger" data-modal-class="pilot" data-quote="&quot;In the course of this life I have had a great many encounters with a great many people who have been concerned with matters of consequence. I have lived a great deal among grown−ups. I have seen them intimately, close at hand. And that hasn't much improved my opinion of them.&quot;"
         data-second-quote="The narrator reflects on their experiences with adults who are always focused on important matters. Interactions with adults have made the narrator disappointed in adulthood. This part of the story represents how growing up often means losing some of the innocence and idealism we have as children. It also shows how the narrator sees a contrast between the simplicity of childhood and the complexity of adulthood, feeling disillusioned.">
       
-        <img src="thelittleprince.PNG" alt="Thelittleprince" data-quote="&quot;People have stars, but they aren't the same. For travelers, the stars are guides. For other people, they're nothing but tiny lights.&quot;"
+        <img src="Illustrations/thelittleprince.PNG" alt="Thelittleprince" class="modal-trigger" data-modal-class="thelittleprince" data-quote="&quot;People have stars, but they aren't the same. For travelers, the stars are guides. For other people, they're nothing but tiny lights.&quot;"
         data-second-quote="The narrator reflects on the varied significance of stars for different people. Stars serve as guides for travelers, aiding them in navigation during their journeys. Yet, to some, stars are merely unremarkable lights in the sky, lacking any significant meaning.This excerpt highlights how something as universal as stars can hold vastly different meanings depending on one's experiences and perceptions. The symbolism underscores themes of perspective, individuality, and the subjective nature of reality, reminding readers of the complexity of human perception and interpretation.">
     </div>
 
-    <div id="quote-modal" class="modal">
+
+    <div id="quote-modal" class="modal b612"> 
         <span class="close">&times;</span>
         <div id="quote"></div>
         <div id="second-quote"></div>
     </div>
+
+
+    <div id="quote-modal" class="modal lamplighter"> 
+        <span class="close">&times;</span>
+        <div id="quote"></div>
+        <div id="second-quote"></div>
+    </div>
+
+    <div id="quote-modal" class="modal earth"> 
+        <span class="close">&times;</span>
+        <div id="quote"></div>
+        <div id="second-quote"></div>
+    </div>
+
+    <div id="quote-modal" class="modal king"> 
+        <span class="close">&times;</span>
+        <div id="quote"></div>
+        <div id="second-quote"></div>
+    </div>
+
+    <div id="quote-modal" class="modal thelittleprince"> 
+        <span class="close">&times;</span>
+        <div id="quote"></div>
+        <div id="second-quote"></div>
+    </div>
+
+    <div id="quote-modal" class="modal geographer"> 
+        <span class="close">&times;</span>
+        <div id="quote"></div>
+        <div id="second-quote"></div>
+    </div>
+
+    <div id="quote-modal" class="modal business"> 
+        <span class="close">&times;</span>
+        <div id="quote"></div>
+        <div id="second-quote"></div>
+    </div>
+
+    <div id="quote-modal" class="modal pilot"> 
+        <span class="close">&times;</span>
+        <div id="quote"></div>
+        <div id="second-quote"></div>
+    </div>
+
+    <div id="quote-modal" class="modal drunkard"> 
+        <span class="close">&times;</span>
+        <div id="quote"></div>
+        <div id="second-quote"></div>
+    </div>
+
+    <div id="quote-modal" class="modal vainman"> 
+        <span class="close">&times;</span>
+        <div id="quote"></div>
+        <div id="second-quote"></div>
+    </div>
+
+
 
     <script src="script.js"></script>
 </body>

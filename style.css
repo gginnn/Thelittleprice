@@ -7,7 +7,7 @@
 body{
     width:100%;
     height:100vh;
-    background: url(stars.jpg);
+    background: url(Illustrations/stars.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -84,11 +84,11 @@ body{
 }
 
 body {
-    cursor: url('star.png'), auto;
+    cursor: url('Illustrations/star.png'), auto;
 }
 
 #image-gallery img {
-    cursor: url('star.png'), auto;
+    cursor: url('Illustrations/star.png'), auto;
 }
 
 
@@ -103,9 +103,48 @@ body {
     height: 100%;
     overflow: auto;
     background-color: rgba(25, 25, 25, 0.96);
-    background-image: url('modalstars.png'); 
     background-size: cover; 
     background-position: center; 
+}
+
+#quote-modal.b612 {
+    background-image: url('Illustrations/modal\ b612.png');
+}
+
+#quote-modal.lamplighter {
+    background-image: url('Illustrations/modal\ lamplighter.png');
+}
+
+#quote-modal.earth {
+    background-image: url('Illustrations/modal\ earth.png');
+}
+
+#quote-modal.king {
+    background-image: url('Illustrations/modal\ king.png');
+}
+
+#quote-modal.thelittleprince {
+    background-image: url('Illustrations/modalstars.png');
+}
+
+#quote-modal.geographer {
+    background-image: url('Illustrations/modal\ geographer.png');
+}
+
+#quote-modal.business {
+    background-image: url('Illustrations/modal\ business.png');
+}
+
+#quote-modal.pilot {
+    background-image: url('Illustrations/modal\ pilot.jpg');
+}
+
+#quote-modal.drunkard {
+    background-image: url('Illustrations/modal\ drunkard.png');
+}
+
+#quote-modal.vainman {
+    background-image: url('Illustrations/modal\ vainman.png');
 }
 
 #quote {
@@ -125,7 +164,7 @@ body {
 
 @font-face {
     font-family: 'CustomFont';
-    src: url('Granjon.otf') format('truetype');
+    src: url('Typeface/Granjon.otf') format('truetype');
 }
 
 #second-quote {
@@ -142,6 +181,54 @@ body {
     font-family: 'CustomFont', sans-serif;
 }
 
+.close {
+    display: none;
+}
+
+.modal .close {
+    display: none;
+}
+
+.audio-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%;
+    z-index: 999;
+    background-color: transparent;
+    padding: 10px;
+}
+
+#audio::-webkit-media-controls-play-button {
+    display: none;
+}
+
+#playButton {
+    background-color: transparent; 
+    border: none;
+    padding: 0;
+    cursor: url('Illustrations/star.png'), auto;
+}
+
+#playButton::after {
+    content: "Click here"; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, 50%); 
+    font-size: 12px; 
+    color: rgba(255,199,166,255); 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    font-family: 'CustomFont', sans-serif;
+}
+
+#playButton:hover::after {
+    opacity: 1; 
+}
+#playButton svg path {
+    fill: rgba(255,199,166,255); 
+}
 
 
 
